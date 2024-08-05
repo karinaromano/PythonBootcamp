@@ -81,3 +81,30 @@ lenght_of_name = len(name_of_the_user)
 
 print("Number of letters in your name: " + str(lenght_of_name))
 
+#Mathematical Operations in Python
+print("My age: " + str(12))
+print(123 + 456)
+print(7 - 3)
+print(3 * 2)
+print(type(6 / 3)) #float
+#implicity type casting
+#Python implicitly convert the result here print(6 / 3) = 2.0
+
+#// -> is other Python division operator
+print(6 // 3) #-> it will come out as integer this // removes the decimals
+print(2**2) #-> to give access to the exponent or when you want to raise a number to a power
+print(2**3) #-> 2 * 2 * 2
+
+#PEMDASLR (Left to right)
+#Parentheses, Exponents, Multiplication/Division, Addition/Subtraction
+#Order:
+# ()
+# **
+# * OR /
+# + OR -
+print(3 * 3 + 3 / 3 - 3)
+
+#How can we change this line of code so it outputs 3?
+print(3 * (3 + 3) / 3 - 3)
+
+
